@@ -1,0 +1,132 @@
+/* basic styling start here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* basic styling End here  */
+
+/* left side desing start here  */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: -50px;
+}
+.left-container{
+    position: relative;
+    margin-right: -50px;
+}
+#left{
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+#right{
+    position: relative;
+    top: 80px;
+    left: -170px;
+}
+.image-border{
+    border: 10px solid black;
+  border-radius: 50px;
+}
+/* left side desing end here  */
+/* Right side desing start here  */
+.right-box{
+    border: 1px solid#ccc6c6;
+    padding: 10px;
+    margin-left: -70px;
+    margin-top: 150px;
+    
+}
+input{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width:100%;
+}
+h1{
+    font-size: 60px;
+    padding: 30px;
+}
+.signin-btn{
+    width: 100%;
+    padding:10px ;
+    background-color: #4BB4F8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#or{
+    text-align: center;
+position: relative;
+top: 0px;
+left: -1px;
+margin-top: 20px;
+}
+hr{
+    position: relative;
+    top: -10px;
+    left: 1px;
+    z-index: -6;
+}
+.fblogin a{
+    text-decoration: none;
+    color:#385185;
+    
+}
+.fblogin{
+    text-align: center;
+    padding: 10px;
+    
+}
+.forget-password{
+    text-align: center;
+
+}
+.forget-password a {
+    text-decoration: none;
+    color: #00376B;
+    font-size: 14px;
+}
+/* instagram sign up start here  */
+
+.instagram-signup{
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    border: 1px solid#ccc6c6;
+    padding: 30px;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+.instagram-signup p{
+
+    padding-right:10px ;
+}
+.instagram-signup a{
+    text-decoration: none;
+    color: #0095F6;
+}
+
+/* get the app start here  */
+.get-app p{
+    text-align: center;
+    padding: 10px;
+}
+.get-app img{
+    height: 40px;
+    
+}
+
+
+
+
